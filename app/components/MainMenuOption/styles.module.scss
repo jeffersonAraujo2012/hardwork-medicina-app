@@ -1,0 +1,31 @@
+.mainMenuOptionCard {
+  @apply w-full pl-4 pt-7 pr-4 pb-4 mb-5 [&:last-child]:mb-0 rounded-lg;
+  @apply bg-gradient-to-br from-[#ae5cc3] to-[#fc317c];
+
+  .header {
+    @apply flex items-center;
+    @apply mb-6;
+
+    .header_Icon {
+      @apply w-12 h-12 mr-4 rounded-md;
+      @apply bg-white;
+    }
+
+    .header_Title {
+      @apply text-3xl leading-[1.875rem] text-white font-black;
+    }
+  }
+
+  .description {
+    @apply text-lg leading-5 text-white font-bold;
+    text-shadow: 2px 2px black;
+  }
+
+  .actionLink {
+    @apply flex items-center justify-center;
+    @apply w-40 h-8 mt-9 ml-auto rounded-full;
+    @apply text-xl font-bold;
+    @apply bg-white shadow-black;
+    box-shadow: 2px 2px 5px black;
+  }
+}

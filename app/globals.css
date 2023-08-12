@@ -2,9 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+  --background-gradient-initial-rgb: 174, 92, 195;
+  --background-gradient-end-rgb: 252, 49, 124;
+}
 
 * {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+}
+
+div.rootContent {
+  min-height: calc(100vh - 128px);
+  @apply bg-gray-950;
 }
