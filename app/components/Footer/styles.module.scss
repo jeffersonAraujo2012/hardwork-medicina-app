@@ -1,0 +1,22 @@
+.footer {
+  @apply flex items-end justify-between;
+  @apply w-full h-16 p-3;
+  @apply text-gray-500;
+  @apply bg-gray-950;
+
+  .textLogo > p:first-child {
+    @apply text-[0.71rem]
+  }
+  .textLogo > p {
+    @apply text-sm leading-[0.875rem] font-black;
+  }
+
+  .footerInfo {
+    @apply flex flex-col items-end;
+    @apply text-[0.6rem];
+
+    a {
+      @apply underline font-semibold;
+    }
+  }
+}
