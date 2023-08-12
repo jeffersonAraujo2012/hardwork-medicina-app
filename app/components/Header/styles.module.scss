@@ -1,0 +1,27 @@
+.header {
+  @apply flex justify-between items-center;
+  @apply w-full h-16 px-6 py-4;
+  @apply bg-gray-950;
+
+  & > * {
+    @apply h-full;
+  }
+
+  .containerLogo {
+    @apply flex justify-center items-center;
+    @apply w-28 rounded-md;
+    @apply bg-white;
+    @apply text-black text-base leading-4 font-semibold;
+  }
+
+  .headerMenu {
+    @apply flex items-center justify-between;
+
+    .containerAvatar {
+      @apply h-full;
+      img {
+        @apply w-auto h-full rounded-md;
+      }
+    }
+  }
+}

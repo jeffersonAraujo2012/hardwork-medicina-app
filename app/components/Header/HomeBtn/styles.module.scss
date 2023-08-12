@@ -1,0 +1,20 @@
+.homeBtn {
+  @apply flex items-center;
+  @apply h-full mr-7;
+  @apply cursor-pointer;
+
+  .containerIcon {
+    @apply flex items-center justify-center;
+    @apply h-full rounded-md p-1 mr-1;
+    @apply bg-gray-200;
+
+    svg {
+      @apply h-full;
+      @apply fill-gray-950;
+    }
+  }
+
+  p {
+    @apply text-white text-base leading-4 font-bold;
+  }
+}
