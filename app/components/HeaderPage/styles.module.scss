@@ -1,0 +1,26 @@
+.header {
+  @apply flex items-center justify-between;
+  @apply h-11 px-3 py-2 rounded-lg;
+  @apply bg-gray-950;
+
+  .returnLink {
+    @apply flex items-center justify-center;
+    @apply w-28 h-full rounded-full;
+    @apply text-lg font-bold;
+    @apply bg-white shadow-black;
+  }
+
+  .wrapper {
+    @apply flex items-center justify-end;
+    @apply h-full;
+
+    .icon {
+      @apply w-7 h-full mr-2 rounded-md;
+      @apply bg-white;
+    }
+
+    .pageTitle {
+      @apply text-white font-black;
+    }
+  }
+}
