@@ -1,0 +1,15 @@
+.questionCard {
+  @apply p-3 mb-6 rounded-xl;
+  @apply bg-black;
+
+  .text {
+    @apply text-lg leading-5 text-white font-bold;
+  }
+}
+
+.sendAnswer {
+  @apply flex items-center justify-center;
+  @apply w-52 h-10 px-5 ml-auto mr-auto my-10 rounded-full border-2 border-gray-950;
+  @apply text-gray-950 text-lg leading-5;
+  @apply bg-transparent;
+}

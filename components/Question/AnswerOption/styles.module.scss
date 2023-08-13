@@ -1,0 +1,24 @@
+.answerOption {
+  @apply flex items-center;
+  @apply p-3 pl-0 mb-4 rounded-lg;
+  @apply bg-gray-200;
+  box-shadow: 2px 2px 5px rgb(170,170,170);
+
+  .letter {
+    @apply flex items-center justify-center;
+    @apply w-12;
+    @apply text-3xl font-black;
+  }
+}
+
+.selected {
+  @apply bg-gray-950;
+
+  .letter {
+    @apply text-white;
+  }
+
+  .answerText {
+    @apply text-white;
+  }
+}

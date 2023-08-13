@@ -1,13 +1,12 @@
-import MainMenuOption from "./components/MainMenuOption";
-import s from "./styles.module.scss";
+import MainMenuOption from "../components/MainMenuOption";
 
 export default function Home() {
   return (
-    <main className={s.mainContainer}>
+    <main className="mainContainer">
       <MainMenuOption
         title="Questões"
         description="Lorem ipsum aasd asdasd asdasd asdasd asdadsasd asdssss!"
-        href="#"
+        href="/questions"
         linkText="Começar"
       />
 
