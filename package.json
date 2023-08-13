@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "18.15.0"
+  },
   "name": "hardwork-medicina-app",
   "version": "0.1.0",
   "private": true,
