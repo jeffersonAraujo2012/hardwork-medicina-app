@@ -1,5 +1,9 @@
 import MainMenuOption from "../components/MainMenuOption";
 
+export const metadata = {
+  title: "Home",
+};
+
 export default function Home() {
   return (
     <main className="mainContainer">
