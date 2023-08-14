@@ -1,3 +1,5 @@
+"use client"
+
 import { Autocomplete, TextField } from "@mui/material";
 import Container from "../Container";
 

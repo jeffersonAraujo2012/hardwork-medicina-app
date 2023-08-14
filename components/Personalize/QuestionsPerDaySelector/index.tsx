@@ -1,3 +1,5 @@
+"use client"
+
 import { Slider } from "@mui/material";
 import s from "./styles.module.scss";
 import Container from "../Container";

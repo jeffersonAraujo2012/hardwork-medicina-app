@@ -1,3 +1,5 @@
+"use client"
+
 import { FormControlLabel, Switch } from "@mui/material";
 import Container from "../Container";
 import { useContext } from "react";
