@@ -1,0 +1,10 @@
+.grayContainer {
+  @apply p-4 mb-5 rounded-lg;
+  @apply bg-gray-200;
+  box-shadow: 2px 2px 5px black;
+
+  .description {
+    @apply mb-4;
+    @apply font-bold;
+  }
+}
