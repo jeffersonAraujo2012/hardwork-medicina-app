@@ -1,0 +1,6 @@
+.sliderValue {
+  @apply flex items-center justify-center;
+  @apply w-11 h-10 ml-7 border border-black rounded-md;
+  @apply text-white font-bold;
+  @apply bg-green-500;
+}
