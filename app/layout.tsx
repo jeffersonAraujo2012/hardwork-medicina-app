@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import QuestionsProvider from "../contexts/QuestionsProvider";
+import PersonalizeProvider from "@/contexts/PersonalizeProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,9 +27,11 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <QuestionsProvider>
-          <Header />
-          <div className="rootContent">{children}</div>
-          <Footer />
+          <PersonalizeProvider>
+            <Header />
+            <div className="rootContent">{children}</div>
+            <Footer />
+          </PersonalizeProvider>
         </QuestionsProvider>
       </body>
     </html>

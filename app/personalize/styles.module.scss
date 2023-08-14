@@ -1,0 +1,13 @@
+.backgroundGradient {
+  @apply bg-gradient-to-t from-[#ae5cc3] to-[#fc317c];
+}
+
+.saveButton {
+  @apply flex items-center justify-center;
+  @apply w-1/2 py-2 ml-auto mr-auto rounded-full;
+  @apply font-bold;
+  @apply bg-white;
+  box-shadow: 2px 2px 5px black;
+}
+
+

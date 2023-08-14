@@ -10,7 +10,11 @@ export default function Home() {
         linkText="Começar"
       />
 
-      <MainMenuOption title="Personalizar" href="#" linkText="Acessar" />
+      <MainMenuOption
+        title="Personalizar"
+        href="/personalize"
+        linkText="Acessar"
+      />
 
       <MainMenuOption title="Métricas" href="#" linkText="Acessar" />
 
